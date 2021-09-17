@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+
+body{
+    background-image: url(hospital.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+ul{
+	list-style-type:none;
+	margin: 20;
+	padding: 20;
+	overflows: hidden;
+	background-color:0333;
+}
+li{
+	float:left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align:center;
+	padding: 20px 22px;
+	text-decoration: none;
+	
+}
+li a:hover{
+	background-color:#111111;
+}
+
